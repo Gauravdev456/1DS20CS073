@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 export default function Prime() {
+    let hel="";
     let API = "http://20.244.56.144/numbers/primes";
     let API2="http://20.244.56.144/numbers/fibo";
     const [primeNumbers, setPrimeNumbers] = useState([]);
